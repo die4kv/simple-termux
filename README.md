@@ -15,5 +15,4 @@
 ## credits  
 
   [ryanoasis/ners-fonts](https://github.com/ryanoasis/nerd-fonts) for the font.  
-  [morhetz/gruvbox](https://github.com/morhetz/gruvbox) for colorsheme.  
-  [mayTermux/myTermux](https://github.com/mayTermux/myTermux) for termux.prop.  
+  [mayTermux/myTermux](https://github.com/mayTermux/myTermux) for colors & termux.prop.  
