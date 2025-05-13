@@ -9,7 +9,8 @@
   ```  
   git clone https://github.com/die4kv/simple-termux.git
   cd ./simple-termux
-  cp -r * ~/.termux  
+  cp -r * ~/.termux
+  termux-reload-settings  
   ```
 
 ## credits  
