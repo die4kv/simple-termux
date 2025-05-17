@@ -2,7 +2,7 @@
 
    **• font**: JetBrainsMono Nerd Font  
    **• colorsheme**: Gruvbox Dark  
-   **• shell**: zsh
+   **• shell**: zsh    
    **•** and some configuration  
        
 #### preinstall  
