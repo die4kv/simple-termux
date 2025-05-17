@@ -23,9 +23,8 @@
   termux-reload-settings  
   ```    
      
-#### after install
+#### after install  
     
-    change shell:  
   ```
      chsh // to zsh  
      
