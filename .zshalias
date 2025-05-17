@@ -1,0 +1,48 @@
+
+# fzf
+alias preview="fzf --preview='bat --color=always --style=numbers --theme OneHalfDark {}' --preview-window=down"
+
+#System    
+alias q="exit"
+alias c="clear"
+
+alias ..='cd ..'
+alias ...='cd ~'
+
+alias d='cd ~/Downloads'
+alias work='cd ~/Dev'
+
+#Package Manager
+alias S="pkg i"
+alias Sy="pkg update"
+alias Syu="pkg update && pkg upgrade"
+
+#Ping    
+alias ping="ping google.com"
+
+alias ls="eza --icons"
+alias la="eza --icons -lgha --group-directories-first"
+alias lt="eza --icons --tree"
+alias lta="eza --icons --tree -lgha"
+alias bat="bat --theme OneHalfDark"
+alias cat="bat --theme OneHalfDark -p $@"
+
+#zsh
+alias zshconf="nvim ~/.zshrc"
+
+#git
+alias gitgraph="git log --all --decorate --oneline --graph"
+alias gitupdate="git fetch && git pull"
+alias gitstat="git status"
+alias gitad="git add $@"
+alias gitcom="git commit -m '$@'"
+
+#Refresh
+alias refresh="source $HOME/.zshrc"
+
+#termux-reload
+alias reload="termux-reload-settings"
+alias termconf="nvim ~/.termux/termux.properties"
+alias termper="termux-setup-storage"
+alias scan="termux-media-scan"
+alias open="termux-open"
