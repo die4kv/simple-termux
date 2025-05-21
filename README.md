@@ -7,12 +7,12 @@
        
 #### preinstall  
         
-    ```    
+        
     pkg update && pkg upgrade  
     pkg i git bc temux-services termux-api  
     pkg i tmux zsh fzf zoxide eza bat  
 
-    ```    
+        
       
 #### installation  
 
